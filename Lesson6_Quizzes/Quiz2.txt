@@ -8,8 +8,17 @@ Questions:
 
 1.  Name two methods you can use to add a node to the DOM tree, and explain the difference between them.
 
+document.createElement()
+and document.cloneChild()
 
-
+are two methods that can be used.  Clone child would be used to clone a preexisting child so the code does not need to be re-written.  createElement() will create an entirely new child node.
 
 
 2.  List the six main objects that make up the browser object model. 
+
+window
+document
+navigator
+screen
+history
+location
